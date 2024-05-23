@@ -1,0 +1,12 @@
+[package]
+name = "gif_maker"
+version = "0.1.0"
+edition = "2021"
+description = "Easy to use Gif Maker with 'copy to clipboard' feature"
+
+[package.metadata.bundle]
+name = "GifMaker"
+identifier = "com.guibarbosadev.gifmaker"
+
+[dependencies]
+winit = "0.30.0"
